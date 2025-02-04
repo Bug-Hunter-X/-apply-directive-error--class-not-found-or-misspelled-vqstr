@@ -1,0 +1,11 @@
+To fix this, verify that `text-red-700` and any other classes used with `@apply` are correctly defined in your `tailwind.config.js` file. Ensure there are no typos. 
+
+Here's the corrected HTML:
+
+```html
+<div class="bg-blue-500 @apply text-red-700">
+  Some text
+</div>
+```
+
+This revised code removes the undefined class, leading to the expected styling.
